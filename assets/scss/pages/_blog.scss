@@ -1,0 +1,38 @@
+// Start RECENT FROM BLOG
+.blog {
+  .container {
+    .row {
+      .number-bar {
+        .number-list {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          text-align: center;
+          .number-items {
+            margin: 0 2px 4px;
+            a {
+              font-size: 15px;
+              color: #fac564;
+              font-weight: 400;
+              line-height: 40px;
+              text-align: center;
+              display: inline-block;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              border: 1px solid #bf7e06;
+              i {
+                font-size: 13px;
+              }
+            }
+            .active-number-item {
+              background-color: #fac564;
+              color: #fff;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

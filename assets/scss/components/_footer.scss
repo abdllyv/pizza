@@ -1,0 +1,215 @@
+// Start General code
+.footer {
+  .container {
+    .row {
+      .title {
+        font-size: 16px;
+        margin-bottom: 40px;
+        letter-spacing: 1px;
+      }
+      .card {
+        padding: 0 15px;
+        margin-bottom: 48px;
+      }
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  padding: 105px 0;
+  background: #101315;
+  .container {
+    .row {
+      gap: 8px;
+      .about-us {
+        width: 25%;
+        margin-left: -15px;
+        .text {
+          font-size: 16px;
+          color: rgba(255, 255, 255, 0.7);
+        }
+        .icon-list {
+          margin: 66px 0 23px;
+          display: flex;
+          .icon-items {
+            margin-right: 14px;
+            a {
+              height: 50px;
+              width: 50px;
+              background: rgba(255, 255, 255, 0.05);
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              i {
+                color: #fff;
+                font-size: 24px;
+              }
+            }
+          }
+        }
+      }
+
+      .recent-blog {
+        width: 35.33333%;
+        .line-card {
+          margin-bottom: 21px;
+          display: flex;
+          .line-card-img {
+            .card-img {
+              height: 80px;
+              width: 80px;
+              margin-right: 24px;
+              object-fit: cover;
+            }
+          }
+          .info {
+            width: 100%;
+            .line-card-title {
+              font-size: 16px;
+              font-family: "Josefin Sans", sans-serif;
+              color: rgba(255, 255, 255, 0.9);
+              display: inline-block;
+              margin-bottom: 8px;
+              line-height: 1.4;
+              transition: .3s all ease;
+              &:hover{
+                color: #fac564;
+              }
+            }
+            .meta {
+              margin-top: 4px;
+              a {
+                font-size: 12px;
+                margin-right: 8px;
+                color: gray;
+                i {
+                  color: #bfbfbf;
+                  font-size: 12px;
+                  padding-right: 4px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .services-info {
+        width: 14.66667%;
+        .secvices-list {
+          .services-items {
+            a {
+              font-weight: 300;
+              display: inline-block;
+              color: rgba(255, 255, 255, 0.7);
+              padding: 8px;
+              line-height: 1.8;
+              transition: 0.3s all ease;
+              &:hover {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+
+      .quetion {
+        width: 25%;
+        .primary-info-list {
+          .primary-info-items {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.5;
+            margin-bottom: 20px;
+            font-weight: 300;
+            display: flex;
+            .tel,
+            .mail {
+              color: #fff;
+            }
+            i {
+              color: white;
+              font-size: 14px;
+              line-height: 1.5;
+              padding-top: 2px;
+              margin-right: 15px;
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    .last {
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 16px;
+      text-align: center;
+      line-height: 1.8;
+      font-weight: 300;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    .container {
+      max-width: 960px;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .footer {
+    .container {
+      max-width: 720px;
+      .row {
+        flex-wrap: wrap;
+        .about-us {
+          width: 50%;
+        }
+
+        .recent-blog {
+          width: 50%;
+        }
+
+        .services-info {
+          width: 48%;
+        }
+
+        .quetion {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    .container {
+      max-width: 540px;
+      .row {
+        flex-wrap: wrap;
+        .about-us {
+          width: 100%;
+        }
+
+        .recent-blog {
+          width: 100%;
+        }
+
+        .services-info {
+          width: 100%;
+        }
+
+        .quetion {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  .footer {
+    .container {
+      max-width: 100%;
+    }
+  }
+}

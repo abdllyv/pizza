@@ -1,0 +1,14 @@
+@mixin btn-primary($clr, $brd-clr, $bg-clr, $pd, $mg, $size) {
+  font-size: $size;
+  border: $brd-clr;
+  color: $clr;
+  background-color: $bg-clr;
+  padding: $pd;
+  margin: $mg;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  transition: color 0.15s ease-in-out;
+}
